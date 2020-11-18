@@ -6,11 +6,11 @@
 	<!-- setter DI -->
 	<!-- <bean id="car" class="beans.Car" scope="singleton">
 		<property name="price" value="200000"/>
-		<property name="engine" ref="e"/>
+		<property name="engine111" ref="e"/>
 	</bean>
 	
 	<bean id="e" class="beans.Engine">
-		<property name="model" value="2019"/>
+		<property name="modelxx" value="2019"/>
 	</bean> -->
 
 
@@ -21,6 +21,6 @@
 	</bean>
 	
 	<bean id="e" class="beans.Engine">
-		<constructor-arg value="2019"/>
+		<constructor-arg value="2019" type="int" index="0"/>
 	</bean>
 </beans>

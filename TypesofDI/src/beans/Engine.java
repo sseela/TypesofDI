@@ -10,7 +10,7 @@ public class Engine {
 		return model;
 	}
 
-	public void setModel(int model) {
+	public void setmodelxx(int model) {
 		this.model = model;
 	}
 	

@@ -6,6 +6,7 @@ public class Car {
 	
 	private int price;
 	
+	/*public Car() {}*/
 	public Car(Engine engine, int price){
 		this.engine = engine;
 		this.price = price;
@@ -14,7 +15,7 @@ public class Car {
 		return engine;
 	}
 
-	public void setEngine(Engine engine) {
+	public void setEngine111(Engine engine) {
 		System.out.println("injecting engine");
 		this.engine = engine;
 	}
